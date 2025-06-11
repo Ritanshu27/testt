@@ -1,0 +1,21 @@
+package test;
+import java.util.*;
+public class Controlflow13 {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		 int a=sc.nextInt();
+		  int b=0;
+		  int c=(a*(a+1))/2;
+		  if(a<0) {
+			  System.out.println("This number is not natural number");}
+			  
+			  for(int i=a;i>=1;i--) {
+				  b=b+a;
+				  a--;
+			  }
+			  if(b==c) {
+				  System.out.println("Answer is same using both methods");
+			  }
+			  System.out.println(b );
+	}
+}
